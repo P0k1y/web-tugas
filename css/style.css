@@ -1,0 +1,152 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: #eb9367;
+  color: #f2f2f2;
+  height: 2rem;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 0em;
+  position: relative;
+}
+
+.navigasi {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  text-indent: 1px;
+  top: 0.5em;
+  word-spacing: 1rem;
+}
+.nav-bar {
+  align-items: center;
+  margin: 5px;
+  word-spacing: 1rem;
+  border-bottom: 1px solid #000000;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1em;
+  position: relative;
+  text-indent: none;
+}
+
+.link:hover {
+  color: #555555;
+  font-size: 1.1em;
+}
+.body {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.consep {
+  max-width: 1525px;
+  max-height: 40%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.picture {
+  width: 1485px;
+  justify-content: center;
+  padding: 2em;
+}
+.promotion img {
+  border-radius: 12px;
+}
+
+.promotion video {
+  border-radius: 13px;
+}
+
+.title1 {
+  width: 90%;
+  height: 5.5rem;
+  background-color: #000000;
+  color: #929292;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+  border-radius: 12px;
+}
+
+.container {
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem;
+  margin: 0rem;
+  justify-content: left;
+  border-bottom: 1px solid #000000;
+}
+
+.text {
+  width: 70%;
+  padding: 1rem;
+  text-align: center;
+}
+text h1 {
+  color: rgb(80, 45, 0);
+}
+
+.text p {
+  text-align: left;
+  text-indent: 1rem;
+  word-spacing: 1px;
+}
+.container img {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+}
+
+.harga {
+  width: 6em;
+  height: 130x;
+  color: #ffffff;
+  background-color: #9e5d3d;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+}
+
+footer {
+  color: #adadad;
+  text-align: center;
+}
+/*
+.container {
+  background: whitesmoke;
+  border: 1px solid #888888;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+  max-width: 100%;
+  border-radius: 1px;
+}*/
